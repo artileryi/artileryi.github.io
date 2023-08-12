@@ -1,0 +1,20 @@
+/* Import a Ubuntu font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');  
+/* Whole page */
+html {background-color: #000; font-family: ubuntu; color: #aaa; text-align: center; animation-duration: 2s; animation-name: slidein;}
+
+/* Main */
+h1{text-align: center; margin-top: 127;}
+a{margin-top: 2px; color: black; border: 0px solid #aaa; background-color: #aaa; border-radius: 5px; text-decoration: none; font-size: 18; padding: 4;}
+a:hover{color: black; border: 0px solid #aaa;background-color: #009EFF; border-radius: 5px; text-decoration: none; font-size: 18; padding: 4;}
+footer{position: fixed;right: 0;bottom: 20;text-align: center;width: 99%;}
+img{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none; pointer-events: none;}
+
+/* Custom class list */
+.description{text-align: center; margin-top: -20; -webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.indent{margin-top: 64; text-align: center;}
+.center{text-align: center;}
+.nosel{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+/* Animation */
+@keyframes slidein {from {margin-left: 10%;width: 300%;background-color: #aaa;} to {margin-left: 0%;width: 100%;}}
